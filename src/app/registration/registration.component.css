@@ -1,0 +1,54 @@
+body {font-family: Georgia, Arial ,Helvetica;}
+* {box-sizing: border-box}
+*{background-color: whitesmoke;}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f1f1f1d9;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=tel]:focus {
+ 
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 2px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+
+}
+#form{
+  width: 100%;
+  border: none;
+  padding: 0 200px 20px 350px;
+  align-items: center;
+}
+#button {
+   background-color: #15941b;
+   border-radius: 10px;
+   width: 60%;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+#button:hover {opacity: 1}
